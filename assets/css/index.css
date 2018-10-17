@@ -1,0 +1,413 @@
+body{
+    height: 200vh;
+}
+
+.content {
+    background-image: url('https://snap-n5yk5qagnxcwwyhdyq.netdna-ssl.com/wp-content/uploads/2018/04/1-Get.png');
+    background-size: cover;
+    padding: 100px;
+    
+    box-shadow: inset 100px 1000px 1000px rgba(0, 0, 0, 0.616);
+}
+
+.content2 {
+    background-image: url('http://www.nexturebusiness.com/images/content/slider/2.jpg');
+    background-size: cover;
+    padding: 100px;
+  
+    box-shadow: inset 100px 1000px 1000px rgba(0, 0, 0, 0.616);
+}
+.content3 {
+    background-image: url('http://abouttechinfo.com/wp-content/uploads/2018/03/header.jpg');
+    background-size: cover;
+    padding: 100px;
+  
+    box-shadow: inset 100px 1000px 1000px rgba(0, 0, 0, 0.616); 
+}
+
+.caption{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 35%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.bannerCaption{
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    color: whitesmoke;
+}
+
+.headingCaption{
+    font-size: 70px;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.bannerCaption3 {
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    color: whitesmoke;
+}
+
+.headingCaption3 {
+    font-size: 70px;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.bg-light {
+    background: none !important;
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    padding: 0px;
+    padding-left: 13px;
+    padding-right: 16px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    border-radius: 100px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.google {
+    background: #dd4b39;
+    color: white;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.grey{
+    background-color: rgba(211, 211, 211, 0.336);
+    
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+.contentDiv{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    background: white;
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+.contentSub{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.buttonService{
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    background: #89a2c4;
+    color: white;
+    margin: 25px;
+    position: relative;
+    cursor: pointer;
+     -webkit-transition: 0.5s;
+     -o-transition: 0.5s;
+     transition: 0.5s;
+}
+
+.buttonService:after {
+    content: '>';
+    position: absolute;
+    opacity: 0;
+    right: -1px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.buttonService:hover {
+    padding-right: 34px;
+    padding-left: 15px;
+    
+}
+
+.buttonService:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+.buttonService:focus{
+    outline: none;
+}
+
+.whiteSection{
+border-bottom: 1px solid rgba(184, 184, 184, 0.747);
+
+}
+
+.digital{
+    color:#658dc5;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.contain{
+    max-width: 1000px;
+    text-align: justify;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.greySection{
+    border-bottom: 1px solid rgba(184, 184, 184, 0.315);
+    
+    padding-top: 5%;
+    padding-bottom: 2%;
+    background-color: rgba(211, 211, 211, 0.336);
+}
+
+.greySection2 {
+    border-bottom: 1px solid rgba(119, 119, 119, 0.562);
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    background-color: rgba(129, 128, 128, 0.336);
+}
+
+.customers{
+    text-align: center;
+    color: #658dc5;
+}
+
+.navbar{
+    background:#21202052 !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: rgba(0, 0, 0, .1);
+    background: #fbfbfbc4;
+}
+
+
+.topFooter{
+    background: black;
+    padding: 0px;
+}
+
+.bottomFooter{
+    background-image: url('../images/logoimage5.jpg');
+    padding: 30px;
+    background-position: center;
+}
+
+.test{
+    filter: none;
+    
+}
+
+.test:hover {
+    filter: grayscale(1);
+}
+
+.test:active {
+    filter: none;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 4px);
+    transform: rotate(-45deg) translate(-5px, 4px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.navbar-light .navbar-toggler {
+    /* color: rgba(0, 0, 0, .5); */
+    border: none !important;
+    background: none !important;
+}
+
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .5);
+    padding: 28px;
+    /* background: green; */
+}
+
+.nav-item:hover{
+    background: rgba(182, 199, 209, 0.089);
+}
+
+@media only screen and (max-width: 992px) {
+
+    .navbar {
+        
+        position: fixed;
+        z-index: 9;
+        width: 100%;
+        padding: 0px;
+        padding-left: 13px;
+        padding-right: 16px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: white ;
+    }
+
+    .icon-bar{
+        display: none;
+    }
+
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 30px;
+        height: 3px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+}
+
+@media only screen and (max-width: 711px) {
+
+.bannerCaption {
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    color: whitesmoke;
+    display: none;
+}
+
+
+.bannerCaption3 {
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    color: whitesmoke;
+    display: none;
+}
+
+
+.content {
+    background-image: url('https://snap-n5yk5qagnxcwwyhdyq.netdna-ssl.com/wp-content/uploads/2018/04/1-Get.png');
+    background-size: cover;
+    padding: 100px;
+
+    box-shadow: inset 100px 1000px 1000px rgba(0, 0, 0, 0.671);
+}
+
+.content2 {
+    background-image: url('http://www.nexturebusiness.com/images/content/slider/2.jpg');
+    background-size: cover;
+    padding: 100px;
+    
+    box-shadow: inset 100px 1000px 1000px rgba(0, 0, 0, 0.692);
+}
+
+.content3 {
+    background-image: url('http://abouttechinfo.com/wp-content/uploads/2018/03/header.jpg');
+    background-size: cover;
+    padding: 100px;
+    
+    box-shadow: inset 100px 1000px 1000px rgba(0, 0, 0, 0.712);
+}
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .bannerCaption {
+       display: none;
+ 
+    }
+
+    .headingCaption{
+        font-size: 50px;
+
+    }
+
+}
+
